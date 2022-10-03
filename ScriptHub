@@ -1,0 +1,61 @@
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ --VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+
+
+local UILibrary = loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('PqYeDAVrutXJyJNDMKspdKHfkBuADwYjOOSNcUHtIykULJcRbMEjyWRaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1YxY2EycTlz')))()
+
+local MainUI = UILibrary.Load(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('mcZthjkIEiipeaxnteRHhGHkOHxGMWoeVEiCxoANhjMTtHsyIWveFnoVmlwZXJzIFNjcmlwdCBIdWIgTWFkZSBCeSBWSVBFUg=='))
+local FirstPage = MainUI.AddPage(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('ipGZVLvmXhRyRpmtapemiWdjTSTDGzOKujFucaQeEHXvMdUDHpFdLtUU2NyaXB0SHVi'))
+
+local FirstLabel = FirstPage.AddLabel(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('ZpevepfPPaGzKHfkjRVidMSguTuzdzwloWCeBxHuiCenIbHawPUkzowQWxsIFNjcmlwdHM='))
+local FirstButton = FirstPage.AddButton(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('CkIIUvXFxyizmXFpVGqyjfLyTaXaZseEtLCGMGJXtlKgxWByzmARwPwU3RvbmUgTWluZXIgU2ltdWxhdG9yIDIgU2NyaXB0'), function()
+    loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('dEvvfXyiOPpCTMVqwJLRuJGEsfLgTImMRIwSWjRSrcUOvhQzMfFFXDMaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NsZWVrc1NjcmlwdHMvU3RvbmUtTWluZXItU2ltdWxhdG9yLTItU2NyaXB0L21haW4vU2NyaXB0')))()
+end)
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+local FirstButton = FirstPage.AddButton(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('rrvmURSSeRDNLootCIgbSlwuSfZhiLoXCVkYXvrZAzZfEltEpdtIEpAVGFwcGluZyBTaW11bGF0b3IgWCBTY3JpcHQ='), function()
+    loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('auOnTZSURGcfJwDraVloELOIXLXGFvZhHSnbOGbYAcgcqWeTvzneDeVaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NsZWVrc1NjcmlwdHMvVGFwcGluZy1MZWdlbmRzLVgtU2NyaXB0L21haW4vU2NyaXB0')))()
+end)
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+local FirstButton = FirstPage.AddButton(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('pEFhvVUJNIuvbvVfIKKARIxHuxWtkcbBUjgrIUDTXKQwaPjjlPkdLcoVGFwcGluZyBTaW11bGF0b3IgU2NyaXB0'), function()
+    loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('uuPlXvnzPNVywXeJkXPONTovcnPgdmTUdmmCSsypavjuirvkNKYCCiuaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NsZWVrc1NjcmlwdHMvVGFwcGluZy1TaW11bGF0b3ItU2NyaXB0L21haW4vVGFwcGluZyUyMFNpbXVsYXRvciUyMFNjcmlwdCUyMFNvdXJjZQ==')))()
+end)
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+local FirstButton = FirstPage.AddButton(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('mdDfniAIAjTZLsfWPBzINFSYiMqqcXnjBtcEgAchFOnAJEmWntAKGqAU2xpbWUgVG93ZXIgVHljb29uIFNjcmlwdA=='), function()
+    loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('YuyYCJDCyHoelOhseWXvguJJPbyEFLSFnKwCtBVGcapoaJulHUNPyUXaHR0cHM6Ly9naXRodWIuY29tL1NsZWVrc1NjcmlwdHMvU2xpbWUtVG93ZXItVHljb29uLVNjcmlwdA==')))();
+end)
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+local FirstButton = FirstPage.AddButton(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('VxYTDeuzRpGnWSUFkhoZsxBfSivYTYHZCOBGhDRzJRrdAgCIYzcctowRmVzdGl2YWwgVHljb29uIFNjcmlwdA=='), function()
+    loadstring(game:HttpGet(DitIIXwXnLfRZCCCFWQossvdabbGdKyzdHCGPlkxphiKqrohWTbPJMlHSZLrsWiOZGiMfvjqrimMWOhiJKqrWkytrBi('QllXdNIwyxgTqBmicefhRIKYnhYCunFdjzIcamKZmQGCbhXWdoelSKTaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NsZWVrc1NjcmlwdHMvRmVzdGl2YWwtVHljb29uLVNjcmlwdC9tYWluL1NjcmlwdA==')))();
+end)
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+
+--VIPERS SCRIPT HUB
+--Join The Discord https://discord.gg/urF72EGT7q
+
+
+
+
+
+
+
+
+
+    
